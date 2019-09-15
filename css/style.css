@@ -1,0 +1,18 @@
+#full {
+    display:inline-block;
+    margin-right:2rem;
+    animation-delay: 1s;
+
+} 
+
+#stack {
+    display:inline-block;
+    animation-delay: 2s;
+} 
+
+#development {
+    display:inline-block;
+
+    animation-delay: 3s;
+    /* text-align: center; */
+}
