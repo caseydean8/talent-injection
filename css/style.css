@@ -1,6 +1,6 @@
 #full {
     display:inline-block;
-    margin-right: 1rem;
+    margin-right: 2px;
     animation-delay: 1s;
 
 } 
@@ -12,11 +12,6 @@
 #float-right {
     float: right;
 }
-/* #web {
-    animation-delay: 3s;
-    display: inline-block;
-    margin-right:1rem;
-} */
 
 #development {
     animation-delay: 3s;
@@ -41,7 +36,7 @@
     animation-delay: 6s;
 }
 
-.container::before {
+.container-main::before {
     background: url("../images/portfolio-sunrise.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,4 +56,15 @@
 
 button {
     border-radius: 19px;
+}
+
+.splash-bar {
+    /* display: grid; */
+    /* background-color: rgba(255,255,255,0.5); */
+    background-color: white;
+    height: auto;
+    /* min-height: 25rem; */
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    /* text-align: center; */
 }
