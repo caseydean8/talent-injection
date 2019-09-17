@@ -6,7 +6,7 @@
 	<!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<meta charset="utf-8">
-	<title>Your page title here :)</title>
+	<title>Injection</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -37,43 +37,55 @@
 	<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<div class="container-main animated fadeIn">
-		<div class="landing-page">
-			<div class="container">
-			<div class="row fiveSec animated fadeInRight" style="margin-top: 7%; float: right;">
-				<button>Projects</button>
+		<div class="container">
+			<div class="row projects fourSec animated fadeInRight">
+				<div class="six columns" id="spacer"></div>
+				<div class="six columns">
+					<button class="projects">Projects</button>
+				</div>
 			</div>
 		</div>
-			<div class="splash-bar">
-				<div class="container">
-			<div class="row">
-				<div class="three columns" style="margin-top: 10%">
-					<h4 id="full" class="animated fadeIn pulse">Full.</h4>
-					<h4 id="stack" class="animated fadeIn pulse">Stack.</h4>
+		<div class="splash-bar">
+			<div class="container splash">
+				<div class="row">
+					<div class="three columns">
+						<h4 id="full" class="animated fadeIn pulse">Full.</h4>
+						<h4 id="stack" class="animated fadeIn pulse">Stack.</h4>
+					</div>
 				</div>
-
-			</div>
-			<div class="row animated fadeInUp" id="casey">
-				<div class="six columns">
-					<h1>Casey Carroll</h1>
+				<div class="row animated fadeInUp" id="casey">
+					<div class="six columns">
+						<h1>Casey Carroll</h1>
+					</div>
 				</div>
-				<!-- <div class="six columns">
-
-				</div> -->
-			</div>
-			<div class="row">
-				<div class="six columns">
-					<h4 id="development" class="animated fadeIn pulse">Development.</h4>
+				<div class="row">
+					<div class="six columns">
+						<h4 id="development" class="animated fadeIn pulse">Development.</h4>
+					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row fourSec animated fadeIn">
 				<p>give your project an injection of talent</p>
 			</div>
-		</div>
+			<div class="row" id="gallery">
+				<div class="two columns" id="project-1">
+					<img src="/images/shopify.jpg" alt="" class="" />
+				</div>
+				<div class="two columns" id="project-2">
+					<img src="/images/burgertime.jpeg" alt="" class="" />
+				</div>
+				<div class="two columns" id="project-3">
+					<img src="/images/concert.jpg" alt="" class="" />
+				</div>
+			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="javascript/app.js"></script>
+
 
 	<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
