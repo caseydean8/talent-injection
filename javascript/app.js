@@ -2,6 +2,7 @@ $(document).ready(function(event){
     // event.preventDefault();
     $(".projects").click(function(){
         console.log("button clicked");
+        $("#text-content").text("click image for deployed project").fadeIn();
       $('.project').fadeIn(800);
     //   var appBtn = $("<button>");
     //   var gitBtn = $("<button>");

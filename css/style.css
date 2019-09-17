@@ -99,7 +99,7 @@ h1 {
   #project-1,
   #project-2,
   #project-3 {
-    display:none;
+    /* display:none; */
    }
 
    img {
