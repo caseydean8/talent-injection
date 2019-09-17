@@ -92,18 +92,19 @@ h1 {
     }
   }
 
-  #spacer {
+  /* #spacer {
       height: 8%;
-  }
+  } */
 
   #project-1,
   #project-2,
   #project-3 {
-    /* display:none; */
+    display:none;
    }
 
    img {
        width: 100%;
+       /* max-width: 355px; */
    }
 
 .six {position: relative;}
@@ -114,8 +115,10 @@ h1 {
     left: 10%; /*your button position*/
 }
 
-.six .link-2 {
+.six .github {
+    /* border: 1px;
+    border-color: black; */
     position: absolute;
-    bottom: 10%;
-    right: 10%;
+    bottom: 5%;
+    right: 5%;
 }
