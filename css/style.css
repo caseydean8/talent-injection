@@ -105,3 +105,17 @@ h1 {
    img {
        width: 335px;
    }
+
+.five {position: relative;}
+
+.five .link {
+    position: absolute;
+    bottom: 20px; /*your button position*/
+    left: 20px; /*your button position*/
+}
+
+.five .link-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+}
