@@ -2,6 +2,7 @@
 
 .button-holder {
     margin-top: 2%;
+    float: right;
 }
 
 #full {
@@ -84,16 +85,8 @@ h1 {
     font-size: 7.0rem;
 }
 
-@media screen and (max-width: 750px) {
-    h1 {
-      font-size: 5rem;
-    }
-  }
-
-  #project-1,
-  #project-2,
-  #project-3 {
-    /* display:none; */
+ .project, #contact {
+    display:none;
    }
 
    img {
@@ -101,41 +94,42 @@ h1 {
        height: auto;
    }
 
-.six {position: relative;}
+/* .project {position: relative;} */
 
-.six .link {
-    position: absolute;
-    bottom: 10%; /*your button position*/
-    left: 10%; /*your button position*/
+.github {
+    /* position: absolute; */
+    bottom: 2%; /*your button position*/
+    right: 2%; /*your button position*/
 }
 
-.six .github {
-    /* border: 1px;
-    border-color: black; */
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+h5 {
+    margin-bottom: 2px;
 }
 
+.github-btn, .linkedin-btn {
+    margin-right: 2%;
+}
+
+/* css flex settings --------------------------------*/
 .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create three equal columns that sits next to each other */
   .column {
     flex: 30%;
-    max-width: 31%;
+    max-width: 33%;
     padding: 0 4px;
   }
   
   .column img {
-    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
   }
-  
+
+  /* Media Queries -----------------------*/
   @media screen and (max-width: 750px) {
     .column {
       flex: 50%;
@@ -150,5 +144,11 @@ h1 {
     .column {
       flex: 100%;
       max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    h1 {
+      font-size: 5rem;
     }
   }

@@ -4,6 +4,7 @@ $(document).ready(function(event){
         console.log("button clicked");
         $("#text-content").text("click image for deployed project").fadeIn(1000);
       $('.project').fadeIn(800);
+      $('#contact').fadeIn(1000);
     //   var appBtn = $("<button>");
     //   var gitBtn = $("<button>");
     //   appBtn.attr({ id: "app-button" });
