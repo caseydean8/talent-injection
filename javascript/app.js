@@ -1,6 +1,6 @@
 $(document).ready(function(event){
     // event.preventDefault();
-    $(".projects").click(function(){
+    $(".project-btn").click(function(){
         console.log("button clicked");
         $("#text-content").text("click image for deployed project").fadeIn(1000);
       $('.project').fadeIn(800);

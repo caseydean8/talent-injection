@@ -1,3 +1,9 @@
+
+
+.button-holder {
+    margin-top: 2%;
+}
+
 #full {
     display:inline-block;
     margin-right: 2px;
@@ -61,15 +67,7 @@ button {
 }
 
 .splash-bar {
-    /* display: grid; */
     background-color: rgba(255,255,255,0.9);
-    /* margin-top: 3%; */
-    /* background-color: white; */
-    /* height: auto; */
-    /* min-height: 25rem; */
-    /* padding-top: 1rem; */
-    /* padding-bottom: 1rem; */
-    /* text-align: center; */
 }
 
 .projects {
@@ -78,7 +76,7 @@ button {
 }
 
 .three,
-p {
+h4 {
     margin-top: 3%;
 }
 
@@ -92,19 +90,15 @@ h1 {
     }
   }
 
-  /* #spacer {
-      height: 8%;
-  } */
-
   #project-1,
   #project-2,
   #project-3 {
-    display:none;
+    /* display:none; */
    }
 
    img {
-       width: 100%;
-       /* max-width: 355px; */
+       max-width: 100%;
+       height: auto;
    }
 
 .six {position: relative;}
@@ -122,3 +116,39 @@ h1 {
     bottom: 5%;
     right: 5%;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 30%;
+    max-width: 31%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 750px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+    h1 {
+        font-size: 5rem;
+      }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
