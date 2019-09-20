@@ -1,5 +1,8 @@
 
-
+body {
+    font-family: 'Comfortaa', cursive;
+;
+}
 .button-holder {
     margin-top: 2%;
     float: right;
@@ -29,6 +32,7 @@
     font-weight: 900;
     text-align: center;
     animation-delay: 0.5s;
+    font-family: 'Gugi', cursive;
 }
 
 .fourSec {
@@ -58,7 +62,6 @@
     z-index: -2;
     opacity: 0.8;
     animation-delay: 5s;
-
 } 
 
 button {
@@ -71,6 +74,10 @@ button {
 
 .splash-bar {
     background-color: rgba(255,255,255,0.9);
+}
+
+#text-content {
+    margin-top: 2%;
 }
 
 .projects {
@@ -91,22 +98,11 @@ h1 {
     display:none;
 }
 
-img {
-    /* max-height: 100%;
-    width: auto; */
-    /* max-width: 100%;
-    height: auto; */
-}
-
-/* .project {position: relative;} */
-
 .github {
-    /* position: absolute; */
-    bottom: 2%; /*your button position*/
-    right: 2%; /*your button position*/
+    float: right;
 }
 
-h5 {
+h6 {
     margin-bottom: 2px;
 }
 
@@ -122,11 +118,11 @@ h5 {
   
   /* Create three equal columns that sits next to each other */
   .column {
-    flex: 30%;
+    flex: 33%;
     max-width: 33%;
     padding: 0 4px;
   }
-  
+
   .column img {
     vertical-align: middle;
     width: 100%;
@@ -137,6 +133,7 @@ h5 {
     .column {
       flex: 50%;
       max-width: 50%;
+      /* margin-left: 4%; */
     }
     h1 {
         font-size: 5rem;
@@ -147,11 +144,21 @@ h5 {
     .column {
       flex: 100%;
       max-width: 100%;
+      margin-left: 0;
+    }
+
+    #text-content {
+        text-align: center;
+    }
+    #development {
+        margin-bottom: 8px;
     }
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (min-width: 550px) {
       #shopify { flex: 1.68; }
       #burger { flex: 1.5 }
       #friends { flex: 1.6}
+      #mudio { flex: 1.99 }
+      #crystal { flex: 1.40}
     }
