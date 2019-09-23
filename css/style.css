@@ -1,7 +1,10 @@
+/* turn off  gallery animations */
+.project, #contact {
+    display:none;
+}
 
 body {
-    font-family: 'Comfortaa', cursive;
-;
+    font-family: 'Nunito', sans-serif;
 }
 .button-holder {
     margin-top: 2%;
@@ -12,12 +15,13 @@ body {
     display:inline-block;
     margin-right: 2px;
     animation-delay: 1s;
-
+    font-style: italic;
 } 
 
 #stack {
     display:inline-block;
     animation-delay: 2s;
+    font-style: italic;
 } 
 #float-right {
     float: right;
@@ -25,14 +29,17 @@ body {
 
 #development {
     animation-delay: 3s;
-    float: right;    
+    float: right;
+    font-style: italic;
 }
 
 #casey {
     font-weight: 900;
     text-align: center;
     animation-delay: 0.5s;
-    font-family: 'Gugi', cursive;
+    font-family: adobe-garamond-pro, serif;
+    letter-spacing:0.3em;
+    /* font-style: normal; */
 }
 
 .fourSec {
@@ -92,10 +99,6 @@ h4 {
 
 h1 {
     font-size: 7.0rem;
-}
-
-.project, #contact {
-    display:none;
 }
 
 .github {
