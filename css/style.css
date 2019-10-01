@@ -15,13 +15,13 @@ body {
     display:inline-block;
     margin-right: 2px;
     animation-delay: 1s;
-    font-style: italic;
+    /* font-style: italic; */
 } 
 
 #stack {
     display:inline-block;
     animation-delay: 2s;
-    font-style: italic;
+    /* font-style: italic; */
 } 
 #float-right {
     float: right;
@@ -30,7 +30,7 @@ body {
 #development {
     animation-delay: 3s;
     float: right;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #casey {
