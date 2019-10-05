@@ -1,6 +1,6 @@
 /* turn off  gallery animations */
 .project, #contact {
-    display:none;
+    display: none;
 }
 
 body {
@@ -160,8 +160,10 @@ h6 {
 
   @media screen and (min-width: 550px) {
       #shopify { flex: 1.68; }
-      #burger { flex: 1.5 }
-      #friends { flex: 1.6}
-      #mudio { flex: 1.99 }
-      #crystal { flex: 1.40}
+      #burger { flex: 1.5; }
+      #friends { flex: 1.6;}
+      #mudio { flex: 1.99; }
+      #crystal { flex: 1.40; }
+      #WikiScrapes { flex: 1.59; }
+      #ahoy {flex: 1.33; }
     }
