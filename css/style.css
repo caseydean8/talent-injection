@@ -36,10 +36,8 @@ body {
 #casey {
     font-weight: 900;
     text-align: center;
-    animation-delay: 0.5s;
     font-family: adobe-garamond-pro, serif;
     letter-spacing:0.3em;
-    /* font-style: normal; */
 }
 
 .fourSec {
@@ -144,8 +142,8 @@ a {
     .column {
       flex: 50%;
       max-width: 50%;
-      /* margin-left: 4%; */
     }
+    
     h1 {
         font-size: 5rem;
       }
